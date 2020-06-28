@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+ <header>
+     <h1>Formularios 3</h1>
+ </header>   
+ <main>
+     <section>
+         <form>
+
+            <table>
+                <tbody>
+                <tr>
+                    <td><label for="nombrecurso">Nombre del Curso:</label></td>
+                    <td><input type="text" id="nombrecurso" placeholder="Ejm: Vue JS desde Cero" required maxlength="20" minlength="5" name="inputnombrecurso"/></td>
+                </tr>
+                <tr>
+                    <td><label for="preciocurso">Precio del Curso:</label></td>
+                    <td><input type="Number" id="preciocurso" placeholder="Precio en Soles" min="0" max="300"/></td>
+                </tr>
+                <tr>
+                    <td><label for="fechacurso">Fecha de Inicio:</label></td>
+                    <td><input type="date" id="fechacurso" value="2020-05-01"/></td>
+                </tr>
+                <tr>
+                    <td><label for="correodocente">Correo del docente:</label></td>
+                    <td><input type="email" id="correodocente" placeholder="Correo corporativo" value="@tecsup.edu.pe"/></td>
+                </tr>
+                <tr>
+                    <td><label for="passwordcurso">Contraseña del curso</label></td>
+                    <td><input type="password" id="passwordcurso" placeholder="6 caracteres como mínimo" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="inputpassword" title="Mínimo 8 caracteres, 1 minuscula, 1 mayuscula y 1 número"></input></td>
+                </tr>
+                <tr>
+                    <td><label>Elija el turno</label></td>
+                    <td>
+                    <label for="radiodia">Mañana</label>   
+                    <input type="radio" id="radiodia" name="turno" value="maniana" checked>
+
+                    <label for="radionoche">Noche</label> 
+                    <input type="radio" id="radionoche" name="turno" value="noche">               
+                     </td>
+                    </tr>
+
+                       <tr>
+                        <td><label>Tipo de Pago</label></td>
+                        <td>
+                        <label for="pagocuotas">En cuotas</label>  
+                        <input type="radio" id="radiodia" name="tipopago">
+    
+                        <label for="pagodirecto">Directo</label> 
+                        <input type="radio" id="radionoche" name="tipopago" checked>      
+                         </td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Idiomas del curso</label></td>
+                            <td>
+                                <label for="idiomaes">Español</label> 
+                                <input type="checkbox" id="idiomaes" checked>   
+
+                                <label for="idiomaen">Ingles</label> 
+                                <input type="checkbox" id="idiomaen">   
+
+                                <label for="idiomaspr">Portugues</label> 
+                                <input type="checkbox" id="idiomaspr">   
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                        <td><label for="nivelcurso">Nivel del Curso</label></td>
+                        <td>
+                           <select name="" id="nivelcurso">                                   
+                                   
+                              <option value="">Básico</option>  
+                              <option value="">Intermedio</option>  
+                              <option value="">Avanzado</option>  
+                              <option value="" selected>--Seleccione--</option> 
+                            </select>    
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="descripcurso">Descripción del Curso</label></td>
+                            <td>
+                               <textarea name="" id="" cols="20" rows="5" placeholder="Descripción general del curso"></textarea>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                                <td><label for="">Video introducción</label></td>
+                                 <td><input type="file" id="videofile"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="">Color Base del Curso</label></td>
+                             <td><input type="color" id="colorcurso"></td>
+                         </tr>
+                    
+
+                         <tr>
+                             <td><input type="submit" value="Crear Curso"/> </td>
+                             <td><input type="reset" id="Limpiar Formulario"></td>
+                         </tr>
+
+
+                </tbody>
+            </table>
+        </form>
+     </section>
+ </main>
+</body>
+
+</html>

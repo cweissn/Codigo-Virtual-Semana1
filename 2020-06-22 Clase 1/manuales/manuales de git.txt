@@ -1,0 +1,12 @@
+Jorge Garnica  00:32
+Buenas noches amigos, a continuación un link a un pdf que resume un poco los comandos GIT
+https://github.github.com/training-kit/downloads/es_ES/github-git-cheat-sheet.pdf
+
+
+
+00:34
+Y aquí, un pequeño tutorial para escribir mejor en MARKDOWN
+https://www.markdowntutorial.com/es/
+00:35
+Más comandos!
+https://gist.github.com/dasdo/9ff71c5c0efa037441b6

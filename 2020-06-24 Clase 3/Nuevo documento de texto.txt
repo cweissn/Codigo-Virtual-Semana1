@@ -1,0 +1,27 @@
+httpsemmet.io
+https://web.dev/lazy-loading-images/
+https://via.placeholder.com/150
+https://placeholder.com/
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+Lista de elementos o etiquetas HTML
+MDN Web DocsMDN Web Docs
+HTML elements reference
+This page lists all the HTML elements, which are created using tags.
+
+Jorge Garnica  21:24
+https://placeholder.com/
+placeholder.complaceholder.com
+Placeholder.com: Placeholder.com – The Free Image Placeholder Service Favoured By Designers
+What Is Placeholder.com? Placeholder.com generates custom placeholder images on the fly, like these examples:-     How To Use Our Placeholders Just specify the image size after our URL (https://via.placeholder.com/) and you'll get a placeholder image.
+19 oct. 2018
+
+
+21:25
+https://schema.org/
+Plantillas para mejorar el SEO de nuestra página
+schema.orgschema.org
+Home - schema.org
+Schema.org is a set of extensible schemas that enables webmasters to embed structured data on their web pages for use by search engines and other applications.
