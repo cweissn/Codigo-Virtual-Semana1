@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>TABLAS</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Tablas simples</h2>
+        <table border="2">
+          <thead>
+            <tr>
+                <!-- las columnas en las primera fila o la fila de 
+                la cabecera, son etiquetas con TH -->
+              <th>#</th>
+              <th>Curso</th>
+              <th>Duración</th>
+              <th>Categoria</th>
+            </tr>
+          </thead>
+
+          <tboby>
+            <tr>
+              <td>1</td>
+              <td>Programación con Pyton</td>
+              <td>300 H.</td>
+              <td>Backend</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Adobe Ilustrator</td>
+              <td>30 H.</td>
+              <td>UX/UI</td>
+            </tr>
+          </tboby>
+
+          <tfoot>
+            <tr>
+                <td>-</td>
+                <td>
+                    <ul>
+                        <li>Total 1 </li>
+                        <li>Total 2 </li>
+                        </li>
+                    </ul>
+                </td> 
+                <td>330 h</td>
+                <td>-</td>                
+            </tr>
+          </tfoot>
+
+        </table>
+      </section>
+
+      <section>
+          <h2>Tablas con celdas combinadas</h2>
+          <table border="1">
+              <thead>
+                  <tr>
+                      <th>Titulo 1</th>
+                      <th>Titulo 2</th>
+                      <th>Titulo 3</th>
+                      <th>Titulo 4</th>
+                  </tr>
+              </thead>
+              <tboby>
+                  <tr>
+                      <td colspan="2">columna 1</td>
+                      <td colspan="2">columna 2</td>
+              </tfoot>
+              <tr>
+                <td colspan="3">Total</td>
+                <td>56</td>
+            </tr>
+        </table>
+        </section>
+
+            <section>
+                <h2>Tablas con Filas combinadas</h2>
+                <table border="3">               
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">fila 1</td>
+                            <td>fila 1</td>
+                            <td>fila 1</td>
+                        </tr>
+                        <tr>
+                            <td>fila 2</td>
+                            <td>fila 2</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>fila 3</td>
+                            <td>fila 3</td>
+                            <td>fila 3</td>
+                        
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr></tr>
+                    </tfoot>
+                </table>
+
+
+            </section>
+
+    </main>
+  </body>
+</html>
