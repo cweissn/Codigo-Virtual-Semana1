@@ -1,0 +1,22 @@
+
+
+.formulario-personal{
+background: brown;
+}
+
+.formulario-externo{
+background-color: chartreuse;
+}
+
+section{
+    background-color:blue;
+}
+
+.letra-morada{
+    color: purple;
+}
+
+.subrayado{
+/*Subrayado*/
+    text-decoration: underline;
+}
