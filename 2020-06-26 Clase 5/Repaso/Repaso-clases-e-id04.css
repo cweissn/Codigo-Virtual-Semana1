@@ -4,6 +4,11 @@
 background: brown;
 }
 
+/*todos los elementos inputs que estén dentro de un elemento que tenga clase formulario personal*/
+.formulario-personal input{
+border-radius: 10px;
+}
+
 .formulario-externo{
 background-color: chartreuse;
 }
