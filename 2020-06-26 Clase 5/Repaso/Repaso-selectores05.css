@@ -1,0 +1,50 @@
+/* nth-child ([position]) */
+/*de Todos los li en un mismo nivel,
+y que sean hermanos, aplicar el estilo al de la posición 2*/
+
+li:nth-child(2){
+    color: rgb(218, 19, 52);
+}
+
+li:first-child{
+    color: hotpink;
+}
+/*
+tr:nth-child(1){
+    color: aquamarine;*/
+}
+
+li:last-child{
+    color: green;
+}
+
+/*odd   -  even*/
+/*odd referencia a todos los elementos impares*/
+/*even elementos pares*/
+tbody tr:nth-child(odd){
+background-color: khaki;
+}
+
+tbody tr:nth-child(even){
+background-color: lightgreen;
+}
+
+thead:nth-child(odd){
+    background-color: lightsalmon;
+}
+
+
+
+/*
+input:not([type="text"]){
+    border-radius: 10px;
+}*/
+
+input:not(.color-morado){
+    border-radius: 10px;
+}
+
+input[type="number"]{
+    color: magenta;
+}
+
