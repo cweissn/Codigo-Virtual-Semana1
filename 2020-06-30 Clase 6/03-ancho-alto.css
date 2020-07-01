@@ -1,0 +1,68 @@
+* {
+  /*Funciones de reset*/
+  margin: 0;
+  /* box-sizing: border-box; sirve para que cuando a un elemento se le coloque pading y/o Borde, 
+  éstos no afecte en el ancho establecido para dicho alimento */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #444;
+  color: white;
+}
+
+section {
+  width: 500px;
+  background-color: teal;
+}
+
+.ancho-200 {
+  width: 200px;
+  background-color: #222;
+  height: 100px;
+  /* overflow: hidden;*/
+  /*overflow: scroll;*/
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.noticias {
+  /*Margen a todos los lados del elemento*/
+  /* margin:20px;*/
+  margin-bottom: 20px; /*margen abajo*/ /*margen con el exterior*/
+  /*border: 1px solid yellow;*/
+}
+/*colapso de margen, si hay 20 abajo y 20 arriba no va sumar 40 sino se mantendrá el que tenga más*/
+.imagenes {
+  margin-top: 20px; /*margen arriba*/
+  padding: 30px; /*relleno interno*/
+}
+
+.articulos{ 
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    border:1px solid yellow;
+}
+
+.articulos p {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #888;
+    margin-top: 50px;
+
+    /*Margen a todos los lados de 10px*/
+    /*margin: 10px */
+
+    /*margen superior e inferior de 10px y margen de los costados 20px*/
+    /*margin: 10px 20px*/
+
+    /*en el sentido de las mnecillas del reloj*/
+    /*superior 5px*/
+    /*derecha 10px*/
+    /*inferior 15px*/
+    /*izquierda 20px*/
+    /*margin: 5px 10px 15px 20px*/
+}

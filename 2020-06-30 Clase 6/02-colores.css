@@ -1,0 +1,51 @@
+body{
+    background: #444;
+    color:white;
+}
+
+/*COLOR SOLIDO*/
+.rojo{
+ color: red;
+}
+
+.amarillo{
+color: yellow;
+}
+/*HEXADECIMAL*/
+
+.azulhex{
+    color: #0000ff;
+    }
+.violetahex{
+color: #ff00ff;
+}
+.grisclarohex{
+    color: ##ddd;
+}
+
+/*RGB*/
+
+.rosadorgb{
+    color: rgb(250, 190,190)
+}
+.amarillorgb{
+    color:rgb(255,255,0)
+}
+
+/*RGBA (Transparencia)*/
+.semitransparente{
+ background: rgba(150, 186, 100, 0.2)    ; 
+}
+
+/*HSL se usa para los degradados*/
+.hsl{
+    background-color: hsl(0, 100%, 50%);
+}
+.hsl2{
+    background-color: hsl(0, 100%, 40%);
+}
+.hsl3{
+    background-color: hsl(0, 100%, 30%);
+    /*background-color: hsl(hue, saturation, lightness);*/
+    /*background-color: hsla(hue, saturation, lightness);*/
+}
