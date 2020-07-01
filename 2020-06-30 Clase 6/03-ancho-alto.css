@@ -66,3 +66,7 @@ section {
     /*izquierda 20px*/
     /*margin: 5px 10px 15px 20px*/
 }
+
+.padre{
+    width: 300px;
+}
