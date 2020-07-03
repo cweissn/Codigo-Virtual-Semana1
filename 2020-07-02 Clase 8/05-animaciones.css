@@ -1,0 +1,49 @@
+
+*{
+margin:0;
+box-sizing:border-box
+}
+
+
+.section1{
+    width: 500px;
+    height:500px;
+    border-radius: 20px;
+    box-shadow: #bbb 0px 0px 20px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    }
+
+    .button1{
+        margin-top: calc(250px - 20px);
+        border: none;
+        outline: none;
+        padding: 10px 15px;
+        border-radius: 20px;
+        background: -webkit-linear-gradient(top,#000428,#004e92);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        animation: animarboton 2s ease-in 0s infinite normal none;
+        /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+    }
+
+
+    /*Creando una animación*/
+    @keyframes animarboton{
+        /*Estado 1, tiene que ser igual al estado inicial*/
+        0% {
+            padding: 10px 15px;
+        }
+         /*Estado 2*/
+        50% {
+            padding: 10px 50px;
+        }
+
+        /*80%{
+            transform: rotate(360deg);
+        }*/
+          /*Estado 3 tiene que ser igual al estado inicial*/
+        100% {
+            padding: 10px 15px;
+        }
+    }

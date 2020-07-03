@@ -1,0 +1,29 @@
+* {
+    margin: 0;  
+    box-sizing: border-box;
+  }
+
+  html,
+  body{
+      height: 100%;
+  }
+
+  body{
+      background: -webkit-linear-gradient(top, #283c86, #45a247);
+  }
+
+  .section1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid orangered;
+    /*background: -webkit-linear-gradient(bottom left,#397d5b,#3baf45,#c0fddf);*/
+    background: linear-gradient(to right, #000046, #1cb5e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.section2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid orangered;
+    /*background: -webkit-linear-gradient(center circle,#4b37bd,#271bda,#12012c);*/
+    background: -webkit-linear-gradient(center circle,gray,#3baf45,pink);
+}
